@@ -27,7 +27,7 @@ Answer:
 
 ```sql
 ALTER TABLE lesson.teachers
-ADD COLUMN subject VARCHAR
+ADD COLUMN subject VARCHAR(255)
 ```
 
 ### Question 3
