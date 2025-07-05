@@ -37,7 +37,7 @@ Write the SQL statement to update the `email` of the teacher with the name 'John
 Answer:
 
 ```sql
-UPDATE teachers
+UPDATE lesson.teachers
 SET email = 'john.doe@school.com'
 WHERE name = 'John Doe'
 ```
